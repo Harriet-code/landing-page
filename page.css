@@ -386,12 +386,12 @@ color: #4c545c;
       }
 
 
-      @media screen and (max-width: 1200px)  {
+      @media screen and (maxg-width: 1000px)  {
         body {
           background: url("./images/bg-header-mobile.png") no-repeat;
           background-size: contain;
         }
-
+        @media screen and (max-width: 1000px)  {
         main {
             display: flex;
             justify-content: center;
@@ -402,12 +402,12 @@ color: #4c545c;
             min-height: 20vh;
           }
           .intro-section .buttons .ios {
-            width: 50%;
+            width: 60%;
           }
           .intro-section .buttons .mac {
             margin: 0rem;
             margin-top: 4rem;
-            width: 50%;
+            width: 60%;
           }
           .computer {
         display: flex;
@@ -527,5 +527,6 @@ color: #4c545c;
             margin-top: 5rem;
           }
         }
+    }
 
 
