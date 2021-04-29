@@ -386,7 +386,7 @@ color: #4c545c;
       }
 
 
-      @media screen and (maxg-width: 1000px)  {
+      @media screen and (max-width: 1000px)  {
         body {
           background: url("./images/bg-header-mobile.png") no-repeat;
           background-size: contain;
